@@ -1,0 +1,9 @@
+.banner {
+    background-image: url("https://i.pinimg.com/1200x/d9/00/24/d900245b304e2dd4270e674077b83619.jpg");
+    width: 100%;
+    height: auto;
+    min-height: 600px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% auto;
+}
