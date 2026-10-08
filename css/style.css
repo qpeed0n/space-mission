@@ -1,4 +1,4 @@
-.banner {
+.banner1 {
     background-image:linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)), url("https://img.goodfon.ru/wallpaper/big/a/bd/yuriy-gagarin-kosmonavt-letchik.webp");
     width: 100%;
     min-height: 900px; 
@@ -23,6 +23,42 @@
 }
 
 .banner-content p {
+    font-size: 60px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+.banner2 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)), url("https://i.pinimg.com/1200x/d9/00/24/d900245b304e2dd4270e674077b83619.jpg");
+    width: 100%;
+    height: auto;
+    min-height: 848px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% auto;
+    display: flex;
+    align-items: flex-end;
+    justify-content: right;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.text {
+    color: #ffffff;
+    padding: 40px;
+    max-width: 1600px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.text h1 {
+    font-size: 100px;
+    margin-bottom: 15px;
+}
+
+.text p {
     font-size: 60px;
     line-height: 1.5;
     margin-bottom: 20px;
