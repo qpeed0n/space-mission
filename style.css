@@ -1,12 +1,14 @@
 .banner {
-    background-image: url("https://i.pinimg.com/1200x/d9/00/24/d900245b304e2dd4270e674077b83619.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)), url("https://i.pinimg.com/1200x/d9/00/24/d900245b304e2dd4270e674077b83619.jpg");
     width: 100%;
     height: auto;
-    min-height: 500px;
+    min-height: 848px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100% auto;
-    position: relative;
+    display: flex;
+    align-items: flex-end;
+    justify-content: right;
 }
 
 body {
@@ -15,26 +17,20 @@ body {
 }
 
 .text {
-    position: absolute;
-    bottom: 50px;
-    left: 830px;
+    color: #ffffff;
+    padding: 40px;
+    max-width: 1600px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
-    background: rgba(255, 255, 255, 0.4);
-    backdrop-filter: blur(10px);
-    
-    padding: 8px 12px;
-    border-radius: 18px;
 }
 
 .text h1 {
-    margin: 0;
-    font-size: 50px;
-    color: #050541;
+    font-size: 100px;
+    margin-bottom: 15px;
 }
 
 .text p {
-    margin: 0;
-    font-size: 32px;
-    color: #000000;
+    font-size: 60px;
+    line-height: 1.5;
+    margin-bottom: 20px;
 }
