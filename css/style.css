@@ -1,8 +1,26 @@
 .banner {
-    background-image: url("https://img.goodfon.ru/wallpaper/big/a/bd/yuriy-gagarin-kosmonavt-letchik.webp");
+    background-image:linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)), url("https://img.goodfon.ru/wallpaper/big/a/bd/yuriy-gagarin-kosmonavt-letchik.webp");
     width: 100%;
-    height: auto;
-    min-height: 380px;
+    min-height: 900px; 
     background-repeat: no-repeat;
     background-position: center;
+    background-size: cover; 
+}
+
+.banner-content {
+    color: #ffffff;
+    padding: 40px;
+    max-width: 600px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.banner-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+}
+
+.banner-content p {
+    font-size: 1.1rem;
+    line-height: 1.5;
+    margin-bottom: 20px;
 }
